@@ -1,0 +1,24 @@
+{
+  "webinar_name": "Fixing Lead Routing in HubSpot",
+  "webinar_start": "2026-10-28 15:00",
+  "webinar_minutes": 45,
+  "call_within_hours": 24,
+  "own_domains": ["yourco.com"],
+  "competitor_domains": ["routeiq.ai", "leadflowhq.com"],
+  "personal_domains": ["gmail.com", "yahoo.com", "hotmail.com", "outlook.com", "icloud.com", "proton.me"],
+  "test_patterns": ["test@", "@test.", "asdf", "example.com"],
+  "buying_poll_phrases": ["next 3 months", "evaluating", "this quarter"],
+  "intent_keywords": ["pricing", "price", "cost", "demo", "trial", "contract", "reps", "migrate", "integrat", "rollout", "salesforce", "license"],
+  "senior_title_words": ["head", "vp", "vice president", "director", "chief", "cro", "cmo", "founder"],
+  "weights": {
+    "attended_live": 20,
+    "watched_replay": 10,
+    "pct_watched_max": 40,
+    "buying_poll": 20,
+    "asked_question": 10,
+    "intent_question": 15,
+    "senior_title": 10,
+    "personal_email": -10
+  },
+  "bands": {"hot": 70, "engaged": 40}
+}
